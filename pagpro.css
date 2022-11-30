@@ -1,0 +1,238 @@
+/* Reseteo de margen de toda la página */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tamaño fondo de encabezado */
+
+.img_enc{
+  width: 1345px;
+  height: 400px;
+  border-radius: 5px 5px 5px 5px;
+
+}
+
+/* Tamaño del logo */
+figure{
+  margin-top: -400px;
+  margin-left: 10px;
+
+}
+/* Efecto zoom */
+.log_zo{
+  width: 300px;
+  height: 300px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+/* Tamaño del logo ZOOM*/
+.log_zo:hover{
+  width: 302px;
+  height: 302px;
+}
+
+/* Menú del encabezado */
+div#Act1{
+  width: 100px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Menú del encabezado */
+div#Promo{
+  width: 100px;
+  height: 0px;
+  margin-left: 750px;
+  display: flex;
+  justify-content: center;
+}
+
+.p{
+  margin: 0px;
+  font-size: 130px;
+  color: skyblue;
+  font-style: oblique;
+  font-family: inherit;
+  margin-top: -300px;
+}
+
+/* Menú del encabezado */
+div#Gal{
+  width: 145px;
+  height: 20px;
+  margin-top: -40px;
+  margin-left: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Menú del encabezado */
+.encM{
+  margin: 0px;
+  font-size: 30px;
+  color: white;
+  font-style: oblique;
+  font-family: inherit;
+}
+/* Menú del encabezado */
+div#act4{
+  width: 145px;
+  height: 20px;
+  margin-top: -40px;
+  margin-left: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Menú del encabezado */
+.encM:hover{
+  font-size: 40px;
+  color: skyblue;
+} /* Menú del encabezado */
+
+/*contenedor de imagenes*/
+.f_res{
+  width: 1345px;
+  height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-top: 75px;
+  }
+/*Fondo de galeria restaurant*/
+  .fondR{
+    width: 1346px;
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8px;
+    }
+
+/*Galeria de restaurant*/
+div#FR{
+  width: 1345px;
+  height: 500px;
+  margin-top: -800px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  }
+/*orden de fotos restaurant*/
+img.Frest{
+  background-color: green;
+  width: 180px;
+  height: 180px;
+  margin: 20px;
+}
+
+.inst{
+  margin-left: 325px;
+  font-size: 20px;
+  color: white;
+  font-style: oblique;
+  font-family: inherit;
+  margin-top: 100px;
+  margin-left: 50px
+}
+
+/* ************************ */
+/*         **********      */
+
+
+/* Imagen de fondo de datos*/
+.fondD{
+  width: 1345px;
+  height: 285px;
+  margin-top: -248px;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 2px;
+}
+
+/* Posición del texto datos */
+.cuadro_txtD{
+  width: 10px;
+  height: 10px;
+  margin-left: 0px;
+  margin-top: -250px;
+}
+
+/* Imagen de ubicación */
+.img_U{
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+/* DIRECCIÓN */
+.direc{
+  color: white;
+  width: 389px;
+  height: 0px;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: -40px;
+}
+
+/* Imagen de whatss */
+.img_W{
+  width: 35px;
+  height: 35px;
+  margin-top: -5px;
+  margin-left: 940px;
+}
+
+/* Contacto */
+.cont{
+  color: white;
+  width: 150px;
+  height: 0px;
+  font-size: 20px;
+  margin-left: 1000px;
+  margin-top: -30px;
+}
+
+/* Nombre de la alumna */
+.nomb{
+  color: white;
+  width: 260px;
+  height: 0px;
+  font-size: 25px;
+  margin-left: 550px;
+  margin-top: 50px;
+}
+
+/* Materia */
+.mat{
+  color: white;
+  width: 200px;
+  height: 0px;
+  font-size: 25px;
+  margin-left: 600px;
+  margin-top: -115px;
+}
+
+/* Imagen de violin */
+.img_V{
+  width: 140px;
+  height: 140px;
+  margin-top: 51px;
+  margin-left: 250px;
+  border-radius: 500px 500px 500px 500px;
+}
+
+/* Imagen de trompeta */
+.img_T{
+  width: 137px;
+  height: 137px;
+  margin-top: -800px;
+  margin-left: 950px;
+  border-radius: 500px 500px 500px 500px;
+}

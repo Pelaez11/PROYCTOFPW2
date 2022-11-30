@@ -1,0 +1,437 @@
+/* Reseteo de margen de toda la página */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  /*********** ENCABEZADO **********/
+/* Tamaño fondo de encabezado */
+.img_enc{
+  width: 1345px;
+  height: 400px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+/* Tamaño del logo de la figura*/
+figure{
+  margin-top: -390px;
+  margin-left: 400px;
+}
+
+/* Tamaño del logo de la imagen*/
+.logo{
+  margin-top: -5px;
+  margin-left: 100px;
+  width: 300px;
+  height: 300px;
+  border-radius: 500px 500px 500px 500px;
+}
+
+/* Menú del encabezado */
+div#Act1{
+  background-color: skyblue;
+  width: 100px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Menú del encabezado */
+div#Act2{
+  background-color: skyblue;
+  width: 150px;
+  height: 40px;
+  margin-top: -40px;
+  margin-left: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Menú del encabezado */
+div#Act3{
+  background-color: skyblue;
+  width: 145px;
+  height: 40px;
+  margin-top: -40px;
+  margin-left: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 102px 102px 102px 102px;
+}
+/* Menú del encabezado */
+div#Act4{
+  background-color: skyblue;
+  width: 150px;
+  height: 40px;
+  margin-top: -40px;
+  margin-left: 1050px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Menú del encabezado */
+h2{
+  margin: 0px;
+  font-size: 30px;
+  color: white;
+  font-style: oblique;
+  font-family: inherit;
+}
+/* Menú del encabezado */
+h2:hover{
+  font-size: 40px;
+  color: skyblue;
+} /* Menú del encabezado */
+
+/*********** ENCABEZADO **********/
+
+/*********** CUERPO **********/
+
+ /*div#IntroM{
+  background-color: orange;
+  width: 850px;
+  height: 250px;
+  margin-top: 0px;
+  border-radius: 50px 50px 50px 50px;
+  margin-left: 10px;
+}*/
+
+/* ***************** HASTA AQUI YA SE ENCUENTRA BIEN EDITADO ********************** */
+
+
+/* Titulo comida */
+.Tit_Act1{
+  margin-left: 325px;
+  font-size: 35px;
+  color: white;
+  font-style: oblique;
+  font-family: inherit;
+  margin-top: -360px;
+  margin-left: 600px
+
+}
+
+/* Imagen de fondo act 1 */
+.fondact1{
+  width: 1340px;
+  height: 400px;
+  margin-top: 15px;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 5px;
+}
+
+/* Imagen de act1 */
+.img_act1{
+  width: 350px;
+  height: 250px;
+  margin-top: -15px;
+  border-radius: 30px 30px 30px 30px;
+  margin-left: 100px;
+  background-color: pink;
+  padding: 5px;
+}
+
+/* Posición del texto 1 */
+.cuadro_txt1{
+  width: 350px;
+  height: 500px;
+  margin-left: 800px;
+  margin-top: -230px;
+}
+
+/* Diseño de descripción de la act 1 */
+.des_acpw1{
+  color: white;
+  width: 500px;
+  height: 100px;
+  font-size: 29px;
+  margin-left: -250px;
+  margin-top: -2px;
+  text-align: justify;
+}
+/*EDITADO 28/11/2022 12:34 A.M */
+/*div#IntroP{
+  background-color: green;
+  width: 300px;
+  height: 250px;
+  margin-top: 10px;
+  border-radius: 50px 50px 50px 50px;
+  margin-left: 500px;
+}*/
+
+/* Titulo promociones */
+.Tit_Act2{
+  margin-left: 325px;
+  font-size: 35px;
+  color: #46E612;
+  font-style: oblique;
+  font-family: inherit;
+  margin-top: -415px;
+  margin-left: 600px
+}
+
+/* Imagen de fondo promociones */
+.fondAct2{
+  width: 1340px;
+  height: 430px;
+  margin-top: -193px;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 5px;
+}
+
+/* Imagen de promociones */
+.img_act2{
+  width: 280px;
+  height: 280px;
+  margin-top: 40px;
+  border-radius: 30px 30px 30px 30px;
+  margin-left: 850px;
+  background-color: green;
+  padding: 5px;
+}
+
+/* Posición del texto 2 */
+.cuadro_txt2{
+  width: 400px;
+  height: 510px;
+  margin-left: 770px;
+  margin-top: -380px;
+}
+
+/* Diseño de descripción promociones */
+.des_acmp2{
+  color: #ffffff;
+  width: 700px;
+  height: 100px;
+  font-size: 30px;
+  margin-left: -725px;
+  margin-top: 80px;
+  text-align: justify;
+}
+
+/*div#IntroE{
+  background-color: blue;
+  width: 300px;
+  height: 250px;
+  margin-top: 10px;
+  border-radius: 50px 50px 50px 50px;
+}*/
+
+/* Titulo eventos */
+.Tit_Act3{
+  margin-left: 450px;
+  font-size: 35px;
+  color: white;
+  font-style: oblique;
+  font-family: inherit;
+  margin-top: -465px;
+  margin-left: 782px
+}
+
+/* Imagen de fondo eventos */
+.fondAct3{
+  width: 1340px;
+  height: 500px;
+  margin-top: -163px;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 5px;
+}
+
+/* Imagen de eventos */
+.img_act3{
+  width: 300px;
+  height: 220px;
+  margin-top: 80px;
+  margin-left: 100px;
+  border-radius: 30px 30px 30px 30px;
+  background-color: skyblue;
+  padding: 5px;
+}
+
+/* Posición del texto 3 */
+.cuadro_txt3{
+  width: 600px;
+  height: 500px;
+  margin-top: -300px;
+  margin-left: 400px;
+
+}
+
+/* Diseño de descripción eventos */
+.des_ajs3{
+  color: white;
+  width: 850px;
+  height: 200px;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-top: 60px;
+  text-align: justify;
+}
+
+/*div#IntroG{
+  background-color: red;
+  width: 300px;
+  height: 250px;
+  margin-top: 10px;
+  border-radius: 50px 50px 50px 50px;
+  margin-left: 500px;
+}*/
+
+/* Titulo galeria */
+.Tit_Act4{
+  margin-left: 325px;
+  font-size: 50px;
+  color: white;
+  font-style: oblique;
+  font-family: inherit;
+  margin-top: -370px;
+  margin-left: 650px
+}
+
+/* Imagen de fondo galeria */
+.fondAct4{
+  width: 1340px;
+  height: 400px;
+  margin-top: -182px;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 5px;
+}
+
+/* Imagen de galeria */
+.img_act4{
+  width: 325px;
+  height: 245px;
+  margin-top: 0px;
+  margin-left: 890px;
+  border-radius: 30px 30px 30px 30px;
+  background-color: purple;
+  padding: 5px;
+}
+
+/* Posición del texto 4 */
+.cuadro_txt4{
+  width: 350px;
+  height: 500px;
+  margin-top: -250px;
+  margin-left: 150px;
+}
+
+/* Diseño de descripción galeria */
+.des_mt4{
+  color: #00FFF5;
+  width: 700px;
+  height: 200px;
+  font-size: 40px;
+  margin-left: 1px;
+  margin-top: -50px;
+  text-align: justify;
+}
+
+/*div#IntroN{
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  margin-top: 10px;
+  border-radius: 50px 50px 50px 50px;
+}*/
+
+/*EFECTO DE TITULOS DE LAS DESCRIPCIONES DE LAS ACTIVIDADES*/
+h3:hover{
+  font-size: 40px;
+  color: skyblue;
+}
+/*EFECTO DE TITULOS DE LAS DESCRIPCIONES DE LAS ACTIVIDADES*/
+
+/* Imagen de fondo de datos*/
+.fondD{
+  width: 1345px;
+  height: 285px;
+  margin-top: -190px;
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 2px;
+}
+
+/* Posición del texto datos */
+.cuadro_txtD{
+  width: 10px;
+  height: 10px;
+  margin-left: 0px;
+  margin-top: -250px;
+}
+
+/* Imagen de ubicación */
+.img_U{
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+/* DIRECCIÓN */
+.direc{
+  color: white;
+  width: 389px;
+  height: 0px;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: -40px;
+}
+
+/* Imagen de whatss */
+.img_W{
+  width: 35px;
+  height: 35px;
+  margin-top: -5px;
+  margin-left: 940px;
+}
+
+/* Contacto */
+.cont{
+  color: white;
+  width: 150px;
+  height: 0px;
+  font-size: 20px;
+  margin-left: 1000px;
+  margin-top: -30px;
+}
+
+/* Nombre de la alumna */
+.nomb{
+  color: white;
+  width: 260px;
+  height: 0px;
+  font-size: 25px;
+  margin-left: 550px;
+  margin-top: 50px;
+}
+
+/* Materia */
+.mat{
+  color: white;
+  width: 200px;
+  height: 0px;
+  font-size: 25px;
+  margin-left: 600px;
+  margin-top: -115px;
+}
+
+/* Imagen de violin */
+.img_V{
+  width: 140px;
+  height: 140px;
+  margin-top: 51px;
+  margin-left: 250px;
+  border-radius: 500px 500px 500px 500px;
+}
+
+/* Imagen de trompeta */
+.img_T{
+  width: 137px;
+  height: 137px;
+  margin-top: -800px;
+  margin-left: 950px;
+  border-radius: 500px 500px 500px 500px;
+}
